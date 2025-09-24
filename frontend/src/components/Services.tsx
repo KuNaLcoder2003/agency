@@ -312,7 +312,7 @@ const Services: React.FC = () => {
                 </div>
 
                 {/* Cards Section */}
-                <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 mt-10">
+                <div className="w-full flex flex-wrap lg:flex-nowrap items-center justify-center gap-6 mt-10">
                     {CardsData.map((data, index) => (
                         <PrimsCard key={index} title={data.title} description={data.desc} icons={data.icons} img={data.img} />
                     ))}
